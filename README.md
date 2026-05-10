@@ -13,7 +13,8 @@ Visualization,
 Automation & Alert System,
 Real-world system design,
 
-🎯 Problem Statement
+
+🎯 Problem Statement :
 
 Weather conditions impact:
 Travel plans ✈️
@@ -47,6 +48,7 @@ Displaying results via API and dashboard
 
 
 🛠 Tech Stack
+
 Python 3.x
 FastAPI
 Streamlit
@@ -59,7 +61,9 @@ Uvicorn
 
 
 
+
 🏗 Project Architecture
+
 
 User Input (City)
         ↓
@@ -74,6 +78,7 @@ Alert Engine (Rule-Based System)
 FastAPI Backend Response
         ↓
 Streamlit Dashboard Visualization
+
 
 
 
@@ -97,6 +102,7 @@ Weather_Forecast_Alert_App/
 
 
 
+
 ⚙️ Installation Guide
 
 1️⃣ Clone Repository
@@ -107,10 +113,8 @@ python -m venv venv
 3️⃣ Activate Environment (Windows Fix Included)
 If error occurs: Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
 Then activate: venv\Scripts\Activate
-
 4️⃣ Install Dependencies
 pip install -r requirements.txt
-
 ▶️ How to Run Project
 🔹 Run FastAPI Backend
 uvicorn api.app:app --reload
@@ -121,6 +125,7 @@ streamlit run app.py
 
 
 🌦 Features
+
 🌍 Real-time weather data
 📊 7-day forecast visualization
 ⚠ Weather alert system
@@ -132,13 +137,17 @@ streamlit run app.py
 ⚠️ Weather Alerts System
 
 
+
 The system generates alerts for:
+
 🔥 Temperature > 40°C → Heatwave Alert
 💧 Humidity > 80% → High Humidity Alert
 🌪 Wind speed > threshold → Wind Alert
 
 
+
 🌐 API Usage Example
+
 GET /weather?city=Nagpur
 Response:
 {
@@ -151,14 +160,18 @@ Response:
 }
 
 
+
 📸 Screenshots
+
 Dashboard UI
 Forecast Graph
 API Response
 Alerts Output
 
 
+
 🚀 Learning Outcomes
+
 This project helped me learn:
 REST API development
 Weather data integration
@@ -168,7 +181,9 @@ Error handling in APIs
 Real-world project structuring
 
 
+
 🔮 Future Improvements
+
 AI-based weather prediction
 Push notifications (SMS/Email/Telegram)
 Map-based weather visualization
